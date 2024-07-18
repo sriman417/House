@@ -1,0 +1,43 @@
+<div class="container">
+  <h1 class="app-heading">Household Budgeting</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="box box-left">
+          <h2>Credit</h2>
+          <div class="content">
+            <app-credit></app-credit>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="box box-right">
+          <h2>Credit-list</h2>
+          <div class="content">
+            <app-credit-list></app-credit-list>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="box box-left">
+          <h2>Debit</h2>
+          <div class="content">
+            <app-add-expense></app-add-expense>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="box box-right">
+          <h2>Budget-List</h2>
+          <div class="content">
+            <app-budget-list></app-budget-list>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
