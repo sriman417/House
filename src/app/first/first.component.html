@@ -1,0 +1,8 @@
+<div class="container">
+  <app-credit (creditAdded)="addCredit($event)"></app-credit>
+  <app-credit-list [creditItems]="creditItems"></app-credit-list>
+  <app-add-expense (expenseAdded)="addExpense($event)"></app-add-expense>
+  <app-budget-list [budgetItems]="budgetItems"></app-budget-list>
+  <button (click)="showResults()">Show Results</button>
+</div>
+ 
